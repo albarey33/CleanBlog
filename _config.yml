@@ -1,7 +1,7 @@
 title:              Quartzo Data Services Portfolio 
 email:              albareydata@gmail.com
 description:        Website about Data Science - Clean Blog Theme by Start Bootstrap - 10/29/2022 10:48 PM
-author:             Quartzo Data Albarey33
+author:             Quartzo Data Services - Albarey33
 baseurl:            ""
 url:                "https://albarey33.github.io"
 
@@ -23,3 +23,5 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+highlighter: rouge
+
