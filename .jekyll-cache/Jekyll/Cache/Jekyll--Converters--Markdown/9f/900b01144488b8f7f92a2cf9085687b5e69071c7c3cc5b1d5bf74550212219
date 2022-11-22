@@ -1,0 +1,31 @@
+I"Ë<h2 id="01-merging-excel-files-with-equal-structure-with-inheritr">01 Merging Excel files with equal structure with inherit.R</h2>
+<p>Script to read excel files with the same structure: equal fields.
+Use Case: To import data on parts and integrate them into one data file
+Example: To build the monthly enrollment list data CSV file 
+for data analysis of Care Management results.
+Data Source: PATIENT HEALTH DASHBOARD (PHD) - POPULATION SUMMARY
+FREQUENCY OF PROCESS: Execute this script after enrollment ONCE A MONTH</p>
+
+<p><img src="https://github.com/albarey33/Data_Analysis_R/blob/main/01%20Merging%20Excel%20files%20with%20equal%20structure%20with%20inherit.R" alt="R Script - Merge Excel Files" /></p>
+
+<h2 id="brief-description">BRIEF DESCRIPTION:</h2>
+<h2 id="required-packages">Required Packages</h2>
+<p>dplyr, readxl, data.table</p>
+
+<h2 id="create-a-list-of-the-excel-files-names-to-read-read-the-excel-files">Create a list of the Excel files names to read read the Excel files</h2>
+<p>Use of list.files (base) to take out the names, use regex to define a pattern of needed files.</p>
+
+<h2 id="create-a-function-to-read-the-excel-files---tibbles">Create a function to read the Excel files - Tibbles</h2>
+<p>Use readxl::read_excel(filename), along with nrow and length to get the data dimensions. 
+For convenience, the fx also converts the logical fields to character.</p>
+
+<h2 id="merge-the-tibbles-into-one-data-file">Merge the tibbles into one data file</h2>
+<p>Using do.call bind_rows</p>
+
+<h2 id="change-field-names">Change field names</h2>
+<p>By default the names are prefixed with X00. Delete these using regex.</p>
+
+<h2 id="write-the-results-into-a-csv">Write the results into a CSV</h2>
+<p>Using datatable::fwrite()</p>
+
+:ET

@@ -1,0 +1,9 @@
+I"¦<h1 id="01-merging-excel-files-with-equal-structure-with-inheritr">01 Merging Excel files with equal structure with inherit.R</h1>
+
+<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/01%20Merging%20Excel%20files%20with%20equal%20structure%20with%20inherit.R">R Script - Merge Excel Files</a></p>
+
+<h4 id="brief-description">BRIEF DESCRIPTION:</h4>
+
+<p>Use Case: To import data on parts (due to source system limitations) and integrate them into one CSV file. The script first create a list of the required Excel files names located in the source folder by using list.files and regex to define a pattern. Then a function is defined to read the data inside the Excel files, this create tibbles. The function uses readxl::read_excel(filename). For convenience, the defined function also converts the logical fields to character using inheritance. Finally the tibbles are merged into one CSV using do.call bind_rows.</p>
+
+:ET
