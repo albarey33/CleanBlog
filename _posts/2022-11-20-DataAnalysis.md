@@ -158,19 +158,18 @@ ___
 
 [R Script - Recap of Sparse Matrix](https://github.com/albarey33/Data_Analysis_R/blob/main/20%20Recap%20of%20Sparse%20Matrix%20Melt%20Dcast%20Conditions%20vs%20Periods.R)
 
-#### Brief Description:
 To export and visualize Power BI. Count of the number of visits performed more than a year before (> 365 days), by reading the date of the last visit per patient. It contains a function with Melt Each for Group of Conditions. With melt. It uses melt and group_by to get the final recap. Finally, the script shows a ggplot geom_line as an example of patients with hypertension by month.
 
 ___
 
-### 21 4C Read data Interactions_WEEK_26_2021.R
+### 21 Read data Interactions_WEEK_26_2021.R
 
 [R Script - Merge Excel Files](https://github.com/albarey33/Data_Analysis_R/blob/main/21%204C%20Interactions_WEEK_26_2021.R)
 Automatically read all the files containing the interactions per care manager in the last week. A tibble is created per file. All the tibbles are merged with dplyr::bind_rows to create a unique data frame for the week.  
 
 ___
 
-### 22 4C Merge data Interactions_All_Periods.R
+### 22 Merge data Interactions_All_Periods.R
 
 [R Script - Merge Excel Files](https://github.com/albarey33/Data_Analysis_R/blob/main/22%204C%20Interactions_All_Periods.R)
 It collects all the weeks saved with the previous script. It collects and applies all the previous scripts. The resulting CSV files serve as sources for other procedures and for PowerBI dashboards.

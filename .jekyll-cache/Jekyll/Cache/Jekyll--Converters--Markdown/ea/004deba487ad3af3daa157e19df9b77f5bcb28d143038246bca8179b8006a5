@@ -1,4 +1,4 @@
-I"�/<h3 id="01-merging-excel-files-with-equal-structure-with-inheritsr">01 Merging Excel files with equal structure with inherits.R</h3>
+I"�2<h3 id="01-merging-excel-files-with-equal-structure-with-inheritsr">01 Merging Excel files with equal structure with inherits.R</h3>
 
 <p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/01%20Merging%20Excel%20files%20with%20equal%20structure%20with%20inherit.R">R Script - Merge Excel Files with Inherits</a></p>
 
@@ -134,18 +134,14 @@ In the example there is a field with the reasons for service each interaction ha
 <h3 id="18-merge-multiple-fields-of-labels-into-oner">18 Merge multiple fields of labels into one.R</h3>
 
 <p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/18%20Merge%20multiple%20fields%20of%20labels%20into%20one.R">R Script - Merge multiple fields of labels</a>
-The purpose of this script is the inverse of the previous one. With multiple medical conditions in the data, with one field per condition, the script takes per each MID the conditions on which each patient is flagged as “Yes”. The script take the names of those flags and merge all those fields using apply-collapse. Finally all the resulting commas are removed with a regular expression.</p>
+The purpose of this script is the inverse of the previous one. With multiple medical conditions in the data, with one field per condition, the script takes per each MID the conditions on which each patient is flagged as “Yes”. The script take the names of those flags and merge all those fields using apply-collapse. Finally all the resulting consecutive commas are removed with a regular expression.</p>
 
 <hr />
 
 <h3 id="19-classification-categories-using-mutater">19 Classification Categories using mutate.R</h3>
 
-<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/19%20Classification%20Categories%20using%20mutate.R">R Script - Classification Categories using mutate</a></p>
-
-<h4 id="brief-description">Brief Description:</h4>
-<p>. 
-. 
-.</p>
+<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/19%20Classification%20Categories%20using%20mutate.R">R Script - Classification Categories using mutate</a>
+Use mutate to add helper columns, then group_by to get a recap of interaction classification by categories. This method is similar to the Excel pivot tables.</p>
 
 <hr />
 
@@ -153,32 +149,21 @@ The purpose of this script is the inverse of the previous one. With multiple med
 
 <p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/20%20Recap%20of%20Sparse%20Matrix%20Melt%20Dcast%20Conditions%20vs%20Periods.R">R Script - Recap of Sparse Matrix</a></p>
 
-<h4 id="brief-description-1">Brief Description:</h4>
-<p>. 
-. 
-.</p>
+<p>To export and visualize Power BI. Count of the number of visits performed more than a year before (&gt; 365 days), by reading the date of the last visit per patient. It contains a function with Melt Each for Group of Conditions. With melt. It uses melt and group_by to get the final recap. Finally, the script shows a ggplot geom_line as an example of patients with hypertension by month.</p>
 
 <hr />
 
-<h3 id="21-4c-read-data-interactions_week_26_2021r">21 4C Read data Interactions_WEEK_26_2021.R</h3>
+<h3 id="21-read-data-interactions_week_26_2021r">21 Read data Interactions_WEEK_26_2021.R</h3>
 
-<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/21%204C%20Interactions_WEEK_26_2021.R">R Script - Merge Excel Files</a></p>
-
-<h4 id="brief-description-2">Brief Description:</h4>
-<p>. 
-. 
-.</p>
+<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/21%204C%20Interactions_WEEK_26_2021.R">R Script - Merge Excel Files</a>
+Automatically read all the files containing the interactions per care manager in the last week. A tibble is created per file. All the tibbles are merged with dplyr::bind_rows to create a unique data frame for the week.</p>
 
 <hr />
 
-<h3 id="22-4c-merge-data-interactions_all_periodsr">22 4C Merge data Interactions_All_Periods.R</h3>
+<h3 id="22-merge-data-interactions_all_periodsr">22 Merge data Interactions_All_Periods.R</h3>
 
-<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/22%204C%20Interactions_All_Periods.R">R Script - Merge Excel Files</a></p>
-
-<h4 id="brief-description-3">Brief Description:</h4>
-<p>. 
-. 
-.</p>
+<p><a href="https://github.com/albarey33/Data_Analysis_R/blob/main/22%204C%20Interactions_All_Periods.R">R Script - Merge Excel Files</a>
+It collects all the weeks saved with the previous script. It collects and applies all the previous scripts. The resulting CSV files serve as sources for other procedures and for PowerBI dashboards.</p>
 
 <hr />
 
