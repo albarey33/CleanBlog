@@ -2,7 +2,7 @@
 layout: post
 title: "Statistical Analysis with R"
 subtitle: "Methods to Verify Hipothesis about samples vs populationsDescription of R Scripts for data processing."
-background: '/img/posts/01.jpg'
+background: '/img/posts/ds_scripts/back01.jpg'
 ---
 
 ### 01 01 Statistical Analysis Small Samples T-Test.R

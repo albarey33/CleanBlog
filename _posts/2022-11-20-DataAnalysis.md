@@ -2,7 +2,7 @@
 layout: post
 title: "Data Analysis - Data Processing with R"
 subtitle: "Description of R Scripts for data processing."
-background: '/img/posts/01.jpg'
+background: '/img/posts/ds_scripts/back01.jpg'
 ---
 
 ### 01 Merging Excel files with equal structure with inherits.R
