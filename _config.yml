@@ -3,7 +3,7 @@ email:              albareydata@gmail.com
 description:        Website about Data Science - Clean Blog Theme by Start Bootstrap - 10/29/2022 10:48 PM
 author:             author Albarey Data Services
 baseurl:            ""
-url:                #"https://albarey33.github.io"   # Disabled changing repos
+url:                "https://albarey33.github.io"   # Disabled changing repos
 
 # Social Profiles
 twitter_username:   
